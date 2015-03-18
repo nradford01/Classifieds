@@ -1,0 +1,9 @@
+<h1> Show Product <h1>
+  
+<% @product %>
+  <h2><%= @product.name %></h2>
+  <h3><%= @product.description %></h2>
+  <p><%= @product.price %></p>
+ 
+<%= link_to 'Back', products_path %>
+<%= link_to 'Purchase', "#" %>
